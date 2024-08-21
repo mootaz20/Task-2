@@ -1,0 +1,35 @@
+.contactCard{
+    display: flex;
+    max-width: 332px;
+    text-align: left;
+    height: 118px;
+    margin-top: 40px;
+}
+.contactCard .card{
+    min-width: 293px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contactCard .card .text{
+    margin-left: 3px;
+}
+.contactCard .card .text h6{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+.contactCard .card .text span{
+    color: rgb(141, 141, 141);
+}
+@media screen and (max-width: 820px) {
+    .contactCard{
+        width: 100%;
+    }
+    .contactCard .card{
+        width: 100%;
+    }
+}

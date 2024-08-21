@@ -1,0 +1,46 @@
+.properties{
+    margin: 120px 0;
+}
+.properties .contanier{
+    max-width: 1140px;
+    margin: auto;
+}
+.properties .contanier .head{
+    max-width: 33%;
+    height: 276px;
+    text-align: center;
+    margin: 0 auto;
+}
+.properties .contanier .head p{
+    color: orangered;
+    font-weight: bold;
+}
+.properties .contanier .head p span{
+    font-size: 22px;
+}
+.properties .contanier .head h2{
+    color: #1E1E1E;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+    line-height: 56px;
+}
+.properties .contanier .grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+@media screen and (max-width: 1120px) {
+    .properties .contanier .grid{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 880px) {
+    .properties .contanier .grid{
+        grid-template-columns: auto;
+    }
+    .properties .contanier .head{
+        max-width: 100%;
+        padding: 10px 20px;
+    }
+}

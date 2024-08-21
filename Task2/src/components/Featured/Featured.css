@@ -1,0 +1,19 @@
+.featured .container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 200px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media screen and (max-width : 1024px) {
+    .featured .container {
+        padding: 0 10px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .featured .container{
+        padding-top: 40px;
+    }
+}
